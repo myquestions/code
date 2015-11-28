@@ -6,5 +6,5 @@ from bottle import default_app, route
 def hello_world():
     return 'Hello from My Questions! Now with changes from local env!'
 
-app = default_app()
+application = default_app()
 

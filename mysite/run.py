@@ -1,3 +1,3 @@
-from myapp import app
+from myapp import application
 
-app.run(host='localhost', port=8080, debug=True)
+application.run(host='localhost', port=8080, debug=True)
