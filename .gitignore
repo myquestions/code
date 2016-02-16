@@ -107,7 +107,7 @@ docs/_build/
 # PyBuilder
 target/
 
-*.pyc
+**/*.pyc
 
     Status API Training Shop Blog About Pricing 
 
