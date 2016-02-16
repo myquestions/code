@@ -1,10 +1,14 @@
 
 # A very simple Bottle Hello World app for you to get started with...
-from bottle import default_app, route
+from bottle import default_app, route, static_file
 
 @route('/')
 def hello_world():
-    return 'Hello from My Questions! Now with changes from local env made on 2016-02-16! And a second update today!'
+    return serve_static("index.html")
+
+@route('/static/<filename:path>')
+def serve_static(filename):
+    return static_file(filename, root="static/")
 
 application = default_app()
 
