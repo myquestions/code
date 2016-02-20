@@ -1,4 +1,5 @@
 import json
+from random import randint
 from bottle import default_app, route, static_file
 
 
@@ -10,7 +11,11 @@ def show_random_question():
     with open('mysite/static/questions.json') as data_file:    
         all_questions = json.load(data_file)
 
-    return str(len(all_questions))
+    index = randint(0, len(all_questions) - 1)
+    
+    question = all_questions[index]
+
+    return question["question"]
 
 @route('/static/<filename:path>')
 def serve_static(filename):
