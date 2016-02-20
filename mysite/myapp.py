@@ -1,6 +1,6 @@
 import json
 from random import randint
-from bottle import default_app, route, static_file
+from bottle import default_app, route, static_file, template
 
 
 @route('/')
@@ -14,8 +14,11 @@ def show_random_question():
     index = randint(0, len(all_questions) - 1)
     
     question = all_questions[index]
-
-    return question["question"]
+    
+    return template('question', \
+        question=question["question"], \
+        tags = question["tags"], \
+        url = question["url"])
 
 @route('/static/<filename:path>')
 def serve_static(filename):
