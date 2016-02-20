@@ -354,11 +354,7 @@ body.custom-background { background-image: url('https://s0.wp.com/wp-content/the
 
     </div> <!-- end #canvas -->
 
-		<script type="text/javascript">
-		//<![CDATA[
-		var infiniteScroll = {"settings":{"id":"posts","ajaxurl":"https:\/\/devquestions.wordpress.com\/?infinity=scrolling","type":"scroll","wrapper":false,"wrapper_class":"infinite-wrap","footer":true,"click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"15.02.16","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"devquestions.wordpress.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":7,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2016-02-15 19:56:11","stats":"blog=107006951&v=wpcom&tz=0&user_id=0&subd=devquestions&x_pagetype=infinite"}};
-		//]]>
-		</script>
+		
 		<!-- wpcom_wp_footer -->
 <script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201607y'></script>
 <script type='text/javascript'>
@@ -497,10 +493,7 @@ try{
 	var skimlinks_pub_id = "725X584219"
 	var skimlinks_sitename = "devquestions.wordpress.com";
 	</script>
-	<script type="text/javascript" src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script><script type="text/javascript">
-			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","jquery-core","jquery-migrate","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","loggedout-subscribe","spin","jquery.spin","grofiles-cards","wpgroho","devicepx","the-neverending-homepage","jquery-cycle","jetpack-slideshow","twemoji","jetpack-emoji","jetpack-emoji-init","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
-			jQuery.extend( infiniteScroll.settings.styles, ["smileyproject","jetpack_likes","loggedout-subscribe","the-neverending-homepage","jetpack-slideshow","wpcom-core-compat-playlist-styles","mp6hacks","wpcom-bbpress2-staff-css","style","grisaille-wpcom","jetpack-emoji-css","noticons","geo-location-flair","reblogging","a8c-global-print","infinity-grisaille","h4-global","grisaille-fonts","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
-		</script><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+	<script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
 <script type="text/javascript">
 _tkq = window._tkq || [];
 _stq = window._stq || [];
