@@ -143,11 +143,11 @@ body.custom-background { background-image: url('https://s0.wp.com/wp-content/the
 		
     	<li id="post-109" class="home-post post-109 post type-post status-publish format-standard hentry category-devquestion tag-python">
 
-			<h2 class="post-title"><a href="https://devquestions.wordpress.com/2016/02/18/how-can-you-intercept-any-bottle-framework-request/" rel="bookmark" title="How can you intercept any bottle framework&nbsp;request?">How can you intercept any bottle framework&nbsp;request?</a></h2>
-						<p class="the-date"><a href="https://devquestions.wordpress.com/2016/02/18/how-can-you-intercept-any-bottle-framework-request/" rel="bookmark">February 18, 2016</a> by andriusdevquestions</p>
+			<h2 class="post-title"><a href="https://devquestions.wordpress.com/2016/02/18/how-can-you-intercept-any-bottle-framework-request/" rel="bookmark">{{ question }}</a></h2>
+						<p class="the-date">Randomly selected question</p>
 
 			<div class="post-wrap">
-								<p>Add a hook, for example before_request</p>
+								<p><a href="{{ url }}">Show answer</a></p>
 							</div>
 			<p class="post-meta">
 				<small>
@@ -156,159 +156,15 @@ body.custom-background { background-image: url('https://s0.wp.com/wp-content/the
 					
 										<span class="sep"> | </span>
 					<span class="tag-links">
-						Tags: <a href="https://devquestions.wordpress.com/tag/python/" rel="tag">python</a>					</span>
+						Tags: 
+%for tag in tags:
+    {{ tag }} 
+                        
+                        				</span>
 														</small>
 			</p>
 
     	</li>
-
-    
-    
-		
-    	<li id="post-104" class="home-post post-104 post type-post status-publish format-standard hentry category-devquestion tag-git">
-
-			<h2 class="post-title"><a href="https://devquestions.wordpress.com/2016/02/17/git-workflow-you-could-recommend/" rel="bookmark" title="GIT workflow you could&nbsp;recommend?">GIT workflow you could&nbsp;recommend?</a></h2>
-						<p class="the-date"><a href="https://devquestions.wordpress.com/2016/02/17/git-workflow-you-could-recommend/" rel="bookmark">February 17, 2016</a> by andriusdevquestions</p>
-
-			<div class="post-wrap">
-								<p>As many dev branches as needed. Developed and reviewed stuff goes to master and is deployed to test environments. Master &#8230; <br /><a class="more-link" href="https://devquestions.wordpress.com/2016/02/17/git-workflow-you-could-recommend/">Continue reading</a></p>
-							</div>
-			<p class="post-meta">
-				<small>
-										<span class="cat-links">
-						Category: <a href="https://devquestions.wordpress.com/category/devquestion/" rel="category tag">DevQuestion</a>					</span>
-					
-										<span class="sep"> | </span>
-					<span class="tag-links">
-						Tags: <a href="https://devquestions.wordpress.com/tag/git/" rel="tag">GIT</a>					</span>
-														</small>
-			</p>
-
-    	</li>
-
-    
-    
-		
-    	<li id="post-100" class="home-post post-100 post type-post status-publish format-standard hentry category-devquestion tag-git">
-
-			<h2 class="post-title"><a href="https://devquestions.wordpress.com/2016/02/17/is-it-easy-to-revert-pushed-merge-how-to-do-it/" rel="bookmark" title="Is it easy to revert pushed merge? How to do&nbsp;it?">Is it easy to revert pushed merge? How to do&nbsp;it?</a></h2>
-						<p class="the-date"><a href="https://devquestions.wordpress.com/2016/02/17/is-it-easy-to-revert-pushed-merge-how-to-do-it/" rel="bookmark">February 17, 2016</a> by andriusdevquestions</p>
-
-			<div class="post-wrap">
-								<p>Yes, do git revert, specify commit and which merge end to revert Stack overflow question</p>
-							</div>
-			<p class="post-meta">
-				<small>
-										<span class="cat-links">
-						Category: <a href="https://devquestions.wordpress.com/category/devquestion/" rel="category tag">DevQuestion</a>					</span>
-					
-										<span class="sep"> | </span>
-					<span class="tag-links">
-						Tags: <a href="https://devquestions.wordpress.com/tag/git/" rel="tag">GIT</a>					</span>
-														</small>
-			</p>
-
-    	</li>
-
-    
-    
-		
-    	<li id="post-97" class="home-post post-97 post type-post status-publish format-standard hentry category-devquestion tag-web">
-
-			<h2 class="post-title"><a href="https://devquestions.wordpress.com/2016/02/17/can-an-ajax-response-set-a-cookie/" rel="bookmark" title="Can an AJAX response set a&nbsp;cookie?">Can an AJAX response set a&nbsp;cookie?</a></h2>
-						<p class="the-date"><a href="https://devquestions.wordpress.com/2016/02/17/can-an-ajax-response-set-a-cookie/" rel="bookmark">February 17, 2016</a> by andriusdevquestions</p>
-
-			<div class="post-wrap">
-								<p>Yes Stack overflow question</p>
-							</div>
-			<p class="post-meta">
-				<small>
-										<span class="cat-links">
-						Category: <a href="https://devquestions.wordpress.com/category/devquestion/" rel="category tag">DevQuestion</a>					</span>
-					
-										<span class="sep"> | </span>
-					<span class="tag-links">
-						Tags: <a href="https://devquestions.wordpress.com/tag/web/" rel="tag">web</a>					</span>
-														</small>
-			</p>
-
-    	</li>
-
-    
-    
-		
-    	<li id="post-90" class="home-post post-90 post type-post status-publish format-standard hentry category-devquestion tag-git">
-
-			<h2 class="post-title"><a href="https://devquestions.wordpress.com/2016/02/16/is-there-a-way-to-avoid-repeatedy-entering-username-and-password/" rel="bookmark" title="Is there a way to avoid repeatedy entering username and&nbsp;password?">Is there a way to avoid repeatedy entering username and&nbsp;password?</a></h2>
-						<p class="the-date"><a href="https://devquestions.wordpress.com/2016/02/16/is-there-a-way-to-avoid-repeatedy-entering-username-and-password/" rel="bookmark">February 16, 2016</a> by andriusdevquestions</p>
-
-			<div class="post-wrap">
-								<p>Yes. Need to configure credentials helper. Git documentation</p>
-							</div>
-			<p class="post-meta">
-				<small>
-										<span class="cat-links">
-						Category: <a href="https://devquestions.wordpress.com/category/devquestion/" rel="category tag">DevQuestion</a>					</span>
-					
-										<span class="sep"> | </span>
-					<span class="tag-links">
-						Tags: <a href="https://devquestions.wordpress.com/tag/git/" rel="tag">GIT</a>					</span>
-														</small>
-			</p>
-
-    	</li>
-
-    
-    
-		
-    	<li id="post-87" class="home-post post-87 post type-post status-publish format-standard hentry category-devquestion tag-python">
-
-			<h2 class="post-title"><a href="https://devquestions.wordpress.com/2016/02/15/what-is-the-name-of-python-package-manager-program/" rel="bookmark" title="What is the name of python package manager&nbsp;program?">What is the name of python package manager&nbsp;program?</a></h2>
-							<span class="comments"><a href="https://devquestions.wordpress.com/2016/02/15/what-is-the-name-of-python-package-manager-program/#respond">Leave a comment</a></span>
-						<p class="the-date"><a href="https://devquestions.wordpress.com/2016/02/15/what-is-the-name-of-python-package-manager-program/" rel="bookmark">February 15, 2016</a> by andriusdevquestions</p>
-
-			<div class="post-wrap">
-								<p>pip</p>
-							</div>
-			<p class="post-meta">
-				<small>
-										<span class="cat-links">
-						Category: <a href="https://devquestions.wordpress.com/category/devquestion/" rel="category tag">DevQuestion</a>					</span>
-					
-										<span class="sep"> | </span>
-					<span class="tag-links">
-						Tags: <a href="https://devquestions.wordpress.com/tag/python/" rel="tag">python</a>					</span>
-														</small>
-			</p>
-
-    	</li>
-
-    
-    
-		
-    	<li id="post-85" class="home-post post-85 post type-post status-publish format-standard hentry category-devquestion tag-python">
-
-			<h2 class="post-title"><a href="https://devquestions.wordpress.com/2016/02/15/what-collection-does-python-have-besides-lists-dictionaries-and-tuples-what-is-the-init-syntax/" rel="bookmark" title="What collection does python have besides lists, dictionaries and tuples? What is the init&nbsp;syntax?">What collection does python have besides lists, dictionaries and tuples? What is the init&nbsp;syntax?</a></h2>
-							<span class="comments"><a href="https://devquestions.wordpress.com/2016/02/15/what-collection-does-python-have-besides-lists-dictionaries-and-tuples-what-is-the-init-syntax/#comments">1</a></span>
-						<p class="the-date"><a href="https://devquestions.wordpress.com/2016/02/15/what-collection-does-python-have-besides-lists-dictionaries-and-tuples-what-is-the-init-syntax/" rel="bookmark">February 15, 2016</a> by andriusdevquestions</p>
-
-			<div class="post-wrap">
-								<p>Sets. a = {1, 3, 7}</p>
-							</div>
-			<p class="post-meta">
-				<small>
-										<span class="cat-links">
-						Category: <a href="https://devquestions.wordpress.com/category/devquestion/" rel="category tag">DevQuestion</a>					</span>
-					
-										<span class="sep"> | </span>
-					<span class="tag-links">
-						Tags: <a href="https://devquestions.wordpress.com/tag/python/" rel="tag">python</a>					</span>
-														</small>
-			</p>
-
-    	</li>
-
-    
     
 </ol><!-- end #posts -->
 
