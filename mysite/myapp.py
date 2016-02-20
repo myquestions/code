@@ -1,41 +1,20 @@
-import feedparser
+import json
 from bottle import default_app, route, static_file
 
 
 @route('/')
-def hello_world():
-
-    main_url = "https://devquestions.wordpress.com/feed"
+def show_random_question():
 
     all_questions = []
-    
-    try_load_next = True
-    page = 1
-    
-    while try_load_next:
 
-        if page == 1:
-            url = main_url
-        else:
-            url = main_url + "/?paged=" + str(page)
-        
-        feed = feedparser.parse(url)
-
-        for post in feed.entries:
-            
-            question = post.title
-            
-            all_questions.append(question)
-            
-        page = page + 1
-        
-        try_load_next = len(feed.entries) > 0
+    with open('mysite/static/questions.json') as data_file:    
+        all_questions = json.load(data_file)
 
     return str(len(all_questions))
 
 @route('/static/<filename:path>')
 def serve_static(filename):
-    return static_file(filename, root="static/")
+    return static_file(filename, root="mysite/static/")
 
 application = default_app()
 
