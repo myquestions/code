@@ -8,7 +8,7 @@ def hello_world():
 
 @route('/static/<filename:path>')
 def serve_static(filename):
-    return static_file(filename, root="static/")
+    return static_file(filename, root="mysite/static/")
 
 application = default_app()
 
