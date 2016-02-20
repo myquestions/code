@@ -184,22 +184,10 @@ body.custom-background { background-image: url('https://s0.wp.com/wp-content/the
 	<input type="text" name="s" id="s" size="25" />
 	<input type="submit" value="Search" id="error-search" />
 </form>
-</div><div class="sidebaritem wp_tag_cloud-9 wp_widget_tag_cloud"><h3 class="widget-title">Tags</h3><div style="overflow:hidden"><a href='https://devquestions.wordpress.com/tag/administration/' class='tag-link-276' title='1 topic' style='font-size: 8pt;'>administration</a>
-<a href='https://devquestions.wordpress.com/tag/angular/' class='tag-link-463744' title='1 topic' style='font-size: 8pt;'>angular</a>
-<a href='https://devquestions.wordpress.com/tag/git/' class='tag-link-209196' title='3 topics' style='font-size: 16.75pt;'>GIT</a>
-<a href='https://devquestions.wordpress.com/tag/html/' class='tag-link-647' title='1 topic' style='font-size: 8pt;'>html</a>
-<a href='https://devquestions.wordpress.com/tag/javascript/' class='tag-link-457' title='4 topics' style='font-size: 19.666666666667pt;'>javascript</a>
-<a href='https://devquestions.wordpress.com/tag/nosql/' class='tag-link-22319505' title='1 topic' style='font-size: 8pt;'>nosql</a>
-<a href='https://devquestions.wordpress.com/tag/npm/' class='tag-link-962177' title='1 topic' style='font-size: 8pt;'>npm</a>
-<a href='https://devquestions.wordpress.com/tag/python/' class='tag-link-832' title='5 topics' style='font-size: 22pt;'>python</a>
-<a href='https://devquestions.wordpress.com/tag/react/' class='tag-link-96530' title='1 topic' style='font-size: 8pt;'>react</a>
-<a href='https://devquestions.wordpress.com/tag/scrum/' class='tag-link-46805' title='3 topics' style='font-size: 16.75pt;'>scrum</a>
-<a href='https://devquestions.wordpress.com/tag/security/' class='tag-link-801' title='2 topics' style='font-size: 13.25pt;'>security</a>
-<a href='https://devquestions.wordpress.com/tag/typescript/' class='tag-link-25138290' title='3 topics' style='font-size: 16.75pt;'>typescript</a>
-<a href='https://devquestions.wordpress.com/tag/web/' class='tag-link-151' title='1 topic' style='font-size: 8pt;'>web</a></div></div><div class="sidebaritem archives-2 widget_archive"><h3 class="widget-title">Questions by month</h3>		<ul>
-			<li><a href='https://devquestions.wordpress.com/2016/02/'>February 2016</a>&nbsp;(32)</li>
-		</ul>
-		</div><div class="sidebaritem rss_links-9 widget_rss_links"><p class="size-medium"><a class="feed-image-link" href="https://devquestions.wordpress.com/feed/" title="Subscribe to Posts"><img src="https://devquestions.wordpress.com/i/rss/orange-medium.png?m=1391188133g" alt="RSS Feed" /></a></p>
+</div>
+
+
+        <div class="sidebaritem rss_links-9 widget_rss_links"><p class="size-medium"><a class="feed-image-link" href="https://devquestions.wordpress.com/feed/" title="Subscribe to Posts"><img src="https://devquestions.wordpress.com/i/rss/orange-medium.png?m=1391188133g" alt="RSS Feed" /></a></p>
 </div>
 	
 </div><!-- end .wrap -->		</div><!-- end #secondary-content -->
