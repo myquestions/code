@@ -19,7 +19,10 @@ while try_load_next:
 
     for post in feed.entries:
         
-        tags = [x.term for x in post.tags if x.term != u'DevQuestion']
+        tags = []
+        
+        if post.get("tags"):
+            tags = [x.term for x in post.tags if x.term != u'DevQuestion']
         
         question = {
             "question": post.title,
